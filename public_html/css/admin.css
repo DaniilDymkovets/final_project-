@@ -1,0 +1,80 @@
+input[type=checkbox], input[type=radio] {
+    width: 24px;
+    height: 24px;
+    margin: -2px 8px 0 0 !important;
+}
+/* HEADER *//* HEADER *//* HEADER *//* HEADER */
+#header {
+    background-color: #456;
+    transition: .2s;
+    -webkit-transition: .2s;
+    z-index: 10;
+    color: #fff
+}
+#header .logo {
+    display: inline-block;
+    padding: 0 15px;
+    }
+#header a {
+    color: #fff !important;
+    background-color: transparent;
+    }
+#header .navbar a:hover {
+    background-color: #234;
+    }
+#header .dropdown-menu {
+    background-color: #345;
+    border-color: #345;
+    }
+.navbar {
+    padding: 0;
+    }
+/* ============ SIDE NAV MENU ============ */
+.sidebar {
+    margin: 0 -15px;
+    }
+.sidebar .user {
+    padding: 25px;
+    background: #eee;
+    }
+
+.sidebar .menu {
+    background-color: #456;
+    color: #fff;
+    }
+.sidebar .menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    position: relative;
+    }
+.sidebar .menu a:hover {
+    background-color: #234;
+    }
+.sidebar [data-toggle="collapse"] {
+    padding-right: 30px;
+}
+.sidebar [data-toggle="collapse"]::after {
+    content:'';
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 45%;
+    border-top: 5px solid #fff;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.sidebar .menu-collapse {
+    background-color: #345;
+}
+.sidebar .menu-collapse a {
+    padding-left: 30px;
+}
+.sidebar .btn {
+    color: #fff !important;
+    width: 100%;
+    margin: 0 auto 10px;
+    max-width: 300px;
+    }
+
